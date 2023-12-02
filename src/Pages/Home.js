@@ -6,7 +6,7 @@ import VideoFilterTab from "../Components/VideoFilterTab";
 import Loading from "./Loading";
 import { buildYoutubeApiUrl } from "../Utils/Utils";
 import { Cookies } from "react-cookie";
-
+import nodata from "../Assets/nodata.jpg";
 const cookies = new Cookies();
 
 const Home = () => {
@@ -47,6 +47,24 @@ const Home = () => {
       />
       {loader ? (
         <Loading />
+      ) : videoData && videoData.length == 0 ? (
+        <>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "60vh",
+            }}
+          >
+            <img
+              src={nodata}
+              alt="no-data"
+              style={{ height: "70%", width: "70%", objectFit: "contain" }}
+            />
+          </div>
+          <h3 className="mt-3 text-center">No videos available!</h3>
+        </>
       ) : (
         <Row className="m-5">
           {videoData &&
