@@ -1,4 +1,4 @@
-export const apiKey = "AIzaSyDqtaWOx6njMYyNYn0VgyXcrjPny4Tx8L0";
+export const apiKey = "AIzaSyCYIOC-uGxb1QuSJsx3ZwFQGxfSaIy2hH4";
 
 export const buildYoutubeApiUrl = (searchQuery, CategoryId, order) => {
   const maxResults = 10;
