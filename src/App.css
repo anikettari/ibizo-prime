@@ -1,38 +1,43 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px;
   text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.video-player-container {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.video-list-container {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rounded-player-container {
+  border-radius: 10px; 
+  overflow: hidden;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.channel-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #333;
+  line-height: 1.3rem
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.video-title {
+  font-size: 1rem;
+  color: #333;
+
 }
+
+

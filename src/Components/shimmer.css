@@ -1,0 +1,32 @@
+
+  
+  .shimmer-image {
+    height: 180px;
+    background: linear-gradient(to right, #f0f0f0 4%, #e0e0e0 25%, #f0f0f0 36%);
+    animation: shimmer-animation 1.5s infinite;
+  }
+  
+  .shimmer-title {
+    height: 20px;
+    width: 50%;
+    margin-bottom: 8px;
+    background: linear-gradient(to right, #f0f0f0 4%, #e0e0e0 25%, #f0f0f0 36%);
+    animation: shimmer-animation 1.5s infinite;
+  }
+  
+  .shimmer-description {
+    height: 16px;
+    width: 80%;
+    background: linear-gradient(to right, #f0f0f0 4%, #e0e0e0 25%, #f0f0f0 36%);
+    animation: shimmer-animation 1.5s infinite;
+  }
+  
+  @keyframes shimmer-animation {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
