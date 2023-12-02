@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ibizo-prime/static/css/main.f7c24acf.css",
+    "main.js": "/ibizo-prime/static/js/main.66d93e54.js",
+    "static/js/787.5da88b52.chunk.js": "/ibizo-prime/static/js/787.5da88b52.chunk.js",
+    "static/media/defaultuser.jpg": "/ibizo-prime/static/media/defaultuser.4b1822e13f639c746633.jpg",
+    "static/media/filter.png": "/ibizo-prime/static/media/filter.4546628c1cfb552515eb.png",
+    "index.html": "/ibizo-prime/index.html",
+    "main.f7c24acf.css.map": "/ibizo-prime/static/css/main.f7c24acf.css.map",
+    "main.66d93e54.js.map": "/ibizo-prime/static/js/main.66d93e54.js.map",
+    "787.5da88b52.chunk.js.map": "/ibizo-prime/static/js/787.5da88b52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7c24acf.css",
+    "static/js/main.66d93e54.js"
+  ]
+}
